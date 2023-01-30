@@ -1,0 +1,16 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/projectSettingsUpdater.xml
+/modules.xml
+/contentModel.xml
+/.idea.GE-Wings Github.iml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+/.idea/.idea.GE-Wings Github.dir/.idea/encodings.xml
+/.idea/.idea.GE-Wings Github.dir/.idea/workspace.xml
