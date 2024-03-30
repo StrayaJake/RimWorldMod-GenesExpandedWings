@@ -6,9 +6,66 @@
             <li>Wing</li>
             <li>Wings</li>
         </exclusionTags>
-        <graphicData>
-            <drawLoc>Tailbone</drawLoc>
-        </graphicData>
+    </GeneDef>
+
+    <!-- Default Wings -->
+    <GeneDef ParentName="GEW_WingBase">
+        <defName>GEW_Gentic</defName>
+        <label>Gentic Wings</label>
+        <description>Carriers of this gene have a pair of giant wings sprouting from their back. The colour of the wings seems to match their hair colour.</description>
+        <iconPath>UI/Icons/Genes/GEW_AngelWingsIcon</iconPath>
+        <biostatCpx>1</biostatCpx>
+        <displayCategory>GEW_Wings</displayCategory>
+        <customEffectDescriptions>
+            <li>Gains the ability to fly once every ingame hour</li>
+        </customEffectDescriptions>
+        <biostatMet>-2</biostatMet>
+        <selectionWeight>0</selectionWeight>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>wing</symbol>
+                </li>
+                <li>
+                    <symbol>gentic</symbol>
+                </li>
+            </prefixSymbols>
+        </symbolPack>
+
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Pawn/Humanlike/BodyAttachments/GEW_AngelWings/GEW_AngelWings</texPath>
+                <colorType>Hair</colorType>
+                <overrideMeshSize>(1, 1)</overrideMeshSize>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawSize>(1.5,1.5)</drawSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <offset>(0, 0.19, 0)</offset>
+                        <layer>90</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(0, 0, 0)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(0, 0, 0)</offset>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(0, 0, 0)</offset>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+
+        <abilities>
+            <li>GEW_Wings_Fly</li>
+        </abilities>
     </GeneDef>
 
     <!-- Dark Angel Wings -->
@@ -37,13 +94,38 @@
                 </li>
             </prefixSymbols>
         </symbolPack>
-        <graphicData>
-            <graphicPath>Things/Pawn/Humanlike/BodyAttachments/GEW_DarkAngelWings/GEW_DarkAngelWings</graphicPath>
-            <drawScale>2</drawScale>
-            <drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
-            <drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
-            <drawOffsetEast>(0, 0, 0)</drawOffsetEast>
-        </graphicData>
+
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Pawn/Humanlike/BodyAttachments/GEW_DarkAngelWings/GEW_DarkAngelWings</texPath>
+                <color>(255, 255, 255)</color>
+                <overrideMeshSize>(1, 1)</overrideMeshSize>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawSize>(1.5,1.5)</drawSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <offset>(0, 0.19, 0)</offset>
+                        <layer>90</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(0, 0, 0)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(0, 0, 0)</offset>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(0, 0, 0)</offset>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+
         <abilities>
             <li>GEW_Wings_Fly</li>
         </abilities>
@@ -75,13 +157,38 @@
                 </li>
             </prefixSymbols>
         </symbolPack>
-        <graphicData>
-            <graphicPath>Things/Pawn/Humanlike/BodyAttachments/GEW_AngelWings/GEW_AngelWings</graphicPath>
-            <drawScale>2</drawScale>
-            <drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
-            <drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
-            <drawOffsetEast>(0, 0, 0)</drawOffsetEast>
-        </graphicData>
+
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Pawn/Humanlike/BodyAttachments/GEW_AngelWings/GEW_AngelWings</texPath>
+                <color>(255, 255, 255)</color>
+                <overrideMeshSize>(1, 1)</overrideMeshSize>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawSize>(1.5,1.5)</drawSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <offset>(0, 0.19, 0)</offset>
+                        <layer>90</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(0, 0, 0)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(0, 0, 0)</offset>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(0, 0, 0)</offset>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+
         <abilities>
             <li>GEW_Wings_Fly</li>
         </abilities>
@@ -113,13 +220,38 @@
                 </li>
             </prefixSymbols>
         </symbolPack>
-        <graphicData>
-            <graphicPath>Things/Pawn/Humanlike/BodyAttachments/GEW_DemonWings/GEW_DemonWings</graphicPath>
-            <drawScale>2</drawScale>
-            <drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
-            <drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
-            <drawOffsetEast>(0, 0, 0)</drawOffsetEast>
-        </graphicData>
+
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Pawn/Humanlike/BodyAttachments/GEW_DemonWings/GEW_DemonWings</texPath>
+                <color>(255, 255, 255)</color>
+                <overrideMeshSize>(1, 1)</overrideMeshSize>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawSize>(2,2)</drawSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <offset>(0, 0.19, 0)</offset>
+                        <layer>90</layer>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(0, 0, 0)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(0, 0, 0)</offset>
+                    </dataEast>
+                    <dataWest>
+                        <offset>(0, 0, 0)</offset>
+                    </dataWest>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+
         <abilities>
             <li>GEW_Wings_Fly</li>
         </abilities>
