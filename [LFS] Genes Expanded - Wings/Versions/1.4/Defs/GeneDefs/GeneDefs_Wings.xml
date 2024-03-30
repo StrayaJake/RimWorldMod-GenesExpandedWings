@@ -1,1 +1,127 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <GeneDef Name="GEW_WingBase" Abstract="True">
+        <displayCategory>Wings</displayCategory>
+        <exclusionTags>
+            <li>Wing</li>
+            <li>Wings</li>
+        </exclusionTags>
+        <graphicData>
+            <drawLoc>Tailbone</drawLoc>
+        </graphicData>
+    </GeneDef>
+
+    <!-- Dark Angel Wings -->
+    <GeneDef ParentName="GEW_WingBase">
+        <defName>GEW_DarkAngel</defName>
+        <label>Dark Angel Wings</label>
+        <description>Carriers of this gene have a pair of lepidopteran giant wings sprouting from their back.</description>
+        <iconPath>UI/Icons/Genes/GEW_DarkAngelWingsIcon</iconPath>
+        <biostatCpx>1</biostatCpx>
+        <displayCategory>GEW_Wings</displayCategory>
+        <customEffectDescriptions>
+            <li>Gains the ability to fly once every ingame hour</li>
+        </customEffectDescriptions>
+        <biostatMet>-1</biostatMet>
+        <selectionWeight>0</selectionWeight>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>wing</symbol>
+                </li>
+                <li>
+                    <symbol>dark</symbol>
+                </li>
+                <li>
+                    <symbol>angel</symbol>
+                </li>
+            </prefixSymbols>
+        </symbolPack>
+        <graphicData>
+            <graphicPath>Things/Pawn/Humanlike/BodyAttachments/GEW_DarkAngelWings/GEW_DarkAngelWings</graphicPath>
+            <drawScale>2</drawScale>
+            <drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
+            <drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
+            <drawOffsetEast>(0, 0, 0)</drawOffsetEast>
+        </graphicData>
+        <abilities>
+            <li>GEW_Wings_Fly</li>
+        </abilities>
+    </GeneDef>
+
+    <!-- Angel Wings -->
+    <GeneDef ParentName="GEW_WingBase">
+        <defName>GEW_Angel</defName>
+        <label>Angel Wings</label>
+        <description>Carriers of this gene have a pair of lepidopteran giant wings sprouting from their back.</description>
+        <iconPath>UI/Icons/Genes/GEW_AngelWingsIcon</iconPath>
+        <biostatCpx>1</biostatCpx>
+        <displayCategory>GEW_Wings</displayCategory>
+        <customEffectDescriptions>
+            <li>Gains the ability to fly once every ingame hour</li>
+        </customEffectDescriptions>
+        <biostatMet>-2</biostatMet>
+        <selectionWeight>0</selectionWeight>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>wing</symbol>
+                </li>
+                <li>
+                    <symbol>dark</symbol>
+                </li>
+                <li>
+                    <symbol>angel</symbol>
+                </li>
+            </prefixSymbols>
+        </symbolPack>
+        <graphicData>
+            <graphicPath>Things/Pawn/Humanlike/BodyAttachments/GEW_AngelWings/GEW_AngelWings</graphicPath>
+            <drawScale>2</drawScale>
+            <drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
+            <drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
+            <drawOffsetEast>(0, 0, 0)</drawOffsetEast>
+        </graphicData>
+        <abilities>
+            <li>GEW_Wings_Fly</li>
+        </abilities>
+    </GeneDef>
+
+    <!-- Demon Wings -->
+    <GeneDef ParentName="GEW_WingBase">
+        <defName>GEW_Demon</defName>
+        <label>Demon Wings</label>
+        <description>Carriers of this gene have a pair of lepidopteran giant wings sprouting from their back.</description>
+        <iconPath>UI/Icons/Genes/GEW_DemonWingsIcon</iconPath>
+        <biostatCpx>1</biostatCpx>
+        <displayCategory>GEW_Wings</displayCategory>
+        <customEffectDescriptions>
+            <li>Gains the ability to fly once every ingame hour</li>
+        </customEffectDescriptions>
+        <biostatMet>-2</biostatMet>
+        <selectionWeight>0</selectionWeight>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>wing</symbol>
+                </li>
+                <li>
+                    <symbol>dark</symbol>
+                </li>
+                <li>
+                    <symbol>angel</symbol>
+                </li>
+            </prefixSymbols>
+        </symbolPack>
+        <graphicData>
+            <graphicPath>Things/Pawn/Humanlike/BodyAttachments/GEW_DemonWings/GEW_DemonWings</graphicPath>
+            <drawScale>2</drawScale>
+            <drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
+            <drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
+            <drawOffsetEast>(0, 0, 0)</drawOffsetEast>
+        </graphicData>
+        <abilities>
+            <li>GEW_Wings_Fly</li>
+        </abilities>
+    </GeneDef>
+</Defs>
