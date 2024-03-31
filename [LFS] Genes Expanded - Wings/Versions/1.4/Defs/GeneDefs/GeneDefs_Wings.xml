@@ -103,7 +103,7 @@
                 <overrideMeshSize>(1, 1)</overrideMeshSize>
                 <parentTagDef>Body</parentTagDef>
                 <rotDrawMode>Fresh, Rotting</rotDrawMode>
-                <drawSize>(1.5,1.5)</drawSize>
+                <drawSize>(1.8,1.8)</drawSize>
                 <drawData>
                     <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
                     <defaultData>
@@ -166,7 +166,7 @@
                 <overrideMeshSize>(1, 1)</overrideMeshSize>
                 <parentTagDef>Body</parentTagDef>
                 <rotDrawMode>Fresh, Rotting</rotDrawMode>
-                <drawSize>(1.5,1.5)</drawSize>
+                <drawSize>(1.8,1.8)</drawSize>
                 <drawData>
                     <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
                     <defaultData>
