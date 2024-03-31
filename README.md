@@ -1,6 +1,5 @@
 ![Wing Genes Mod Preview](https://i.imgur.com/PYPncT6.png)
-
-Elevate your Rimworld experience with the **Wing Genes Mod**! This innovative mod introduces **eight new Wing genes**, allowing you to genetically enhance your colonists with a variety of aerial abilities. From swift flight to stealthy gliding, unlock new dimensions of strategy and survival in Rimworld's vast universe.
+This mod adds eight new Wing genes to Rimworld, enabling players to genetically modify their colonists with abilities ranging from swift flight to stealthy gliding, introducing a fresh dimension of aerial strategy and survival tactics to the game's expansive universe.
 
 [![Support the Developer](https://i.imgur.com/6UlYsZA.png)](https://www.buymeacoffee.com/LFStudio)
 ![Wing Genes](https://i.imgur.com/IwC9ybE.png)
