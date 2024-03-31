@@ -8,12 +8,12 @@
         </exclusionTags>
     </GeneDef>
 
-    <!-- Default Wings -->
+    <!-- Genetic Wings -->
     <GeneDef ParentName="GEW_WingBase">
-        <defName>GEW_Gentic</defName>
-        <label>Gentic Wings</label>
-        <description>Carriers of this gene have a pair of giant wings sprouting from their back. The colour of the wings seems to match their hair colour.</description>
-        <iconPath>UI/Icons/Genes/GEW_AngelWingsIcon</iconPath>
+        <defName>GEW_Genetic</defName>
+        <label>Genetic Wings</label>
+        <description>Carriers of this gene develop wings that mirror their hair color, flowing and textured, emerging seamlessly from their back, blending the natural hues of their locks with the majestic form of wings</description>
+        <iconPath>UI/Icons/Genes/GEW_GeneticWingsIcon</iconPath>
         <biostatCpx>1</biostatCpx>
         <displayCategory>GEW_Wings</displayCategory>
         <customEffectDescriptions>
@@ -35,12 +35,12 @@
         <renderNodeProperties>
             <li>
                 <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
-                <texPath>Things/Pawn/Humanlike/BodyAttachments/GEW_AngelWings/GEW_AngelWings</texPath>
+                <texPath>Things/Pawn/Humanlike/BodyAttachments/GEW_GeneticWings/GEW_GeneticWings</texPath>
                 <colorType>Hair</colorType>
                 <overrideMeshSize>(1, 1)</overrideMeshSize>
                 <parentTagDef>Body</parentTagDef>
                 <rotDrawMode>Fresh, Rotting</rotDrawMode>
-                <drawSize>(1.5,1.5)</drawSize>
+                <drawSize>(1.8,1.8)</drawSize>
                 <drawData>
                     <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
                     <defaultData>
@@ -54,10 +54,10 @@
                         <offset>(0, 0, 0)</offset>
                     </dataSouth>
                     <dataEast>
-                        <offset>(0, 0, 0)</offset>
+                        <offset>(-.12, 0, 0)</offset>
                     </dataEast>
                     <dataWest>
-                        <offset>(0, 0, 0)</offset>
+                        <offset>(.12, 0, 0)</offset>
                     </dataWest>
                 </drawData>
             </li>
