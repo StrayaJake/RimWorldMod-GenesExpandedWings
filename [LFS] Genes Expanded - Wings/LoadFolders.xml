@@ -1,6 +1,6 @@
 <loadFolders>
     <v1.4>
-        <li>Versions/1.4</li>
+        <li>Versions/1.5</li>
         <li IfModActive="lazyfridaystudio.xenosexpanded">Compatibility/LFSXenosExpanded/</li>
         <li IfModActive="lazyfridaystudio.nightShademercenarys">Compatibility/LFSNightShadeMercenaries</li>
         <li IfModActive="Nals.FacialAnimation">Compatibility/FacialAnimation</li>
