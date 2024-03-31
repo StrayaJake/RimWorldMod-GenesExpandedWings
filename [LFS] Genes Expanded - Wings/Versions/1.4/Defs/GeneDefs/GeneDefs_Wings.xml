@@ -72,7 +72,7 @@
     <GeneDef ParentName="GEW_WingBase">
         <defName>GEW_DarkAngel</defName>
         <label>Dark Angel Wings</label>
-        <description>Carriers of this gene have a pair of lepidopteran giant wings sprouting from their back.</description>
+        <description>Carriers of this gene unfurl a pair of dark angel wings, majestic and imposing, rising from their back, cloaked in shadows that whisper of ancient power and the depth of the night sky.</description>
         <iconPath>UI/Icons/Genes/GEW_DarkAngelWingsIcon</iconPath>
         <biostatCpx>1</biostatCpx>
         <displayCategory>GEW_Wings</displayCategory>
@@ -135,7 +135,7 @@
     <GeneDef ParentName="GEW_WingBase">
         <defName>GEW_Angel</defName>
         <label>Angel Wings</label>
-        <description>Carriers of this gene have a pair of lepidopteran giant wings sprouting from their back.</description>
+        <description>Carriers of this gene reveal a pair of angel wings, resplendent and pure, gracefully arching from their back, radiating a celestial glow that speaks of serenity and the boundless heavens.</description>
         <iconPath>UI/Icons/Genes/GEW_AngelWingsIcon</iconPath>
         <biostatCpx>1</biostatCpx>
         <displayCategory>GEW_Wings</displayCategory>
@@ -198,7 +198,7 @@
     <GeneDef ParentName="GEW_WingBase">
         <defName>GEW_Demon</defName>
         <label>Demon Wings</label>
-        <description>Carriers of this gene have a pair of lepidopteran giant wings sprouting from their back.</description>
+        <description>Carriers of this gene manifest a pair of demon wings, formidable and enigmatic, stretching wide from their back, cloaked in a darkness that pulses with untold strength and the mysteries of the abyss.</description>
         <iconPath>UI/Icons/Genes/GEW_DemonWingsIcon</iconPath>
         <biostatCpx>1</biostatCpx>
         <displayCategory>GEW_Wings</displayCategory>
