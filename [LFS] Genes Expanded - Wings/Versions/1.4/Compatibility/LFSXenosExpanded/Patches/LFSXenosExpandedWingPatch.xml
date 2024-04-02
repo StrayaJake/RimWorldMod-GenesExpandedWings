@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/LFS_GenesExpandedEyes.GeneGroups[defName = "Xeno_Zukran"]/geneGroups </xpath>
+                <value>
+                    <li>
+                        <Endogenes>
+                            <GEW_Demon_Wings>1</GEW_Demon_Wings>
+                        </Endogenes>
+                    </li>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/LFS_GenesExpandedEyes.GeneGroups[defName = "Xeno_Enphor"]/geneGroups </xpath>
+                <value>
+                    <li>
+                        <Endogenes>
+                            <GEW_Genetic_Wings>1</GEW_Genetic_Wings>
+                        </Endogenes>
+                    </li>
+                </value>
+            </li>
+
+        </operations>
+    </Operation>
+</Patch>
