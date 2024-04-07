@@ -2,6 +2,8 @@
 <Defs>
     <GeneDef Name="GEW_WingBase" Abstract="True">
         <displayCategory>Wings</displayCategory>
+        <biostatMet>-1</biostatMet>
+        <biostatCpx>1</biostatCpx>
         <exclusionTags>
             <li>Wing</li>
             <li>Wings</li>
@@ -14,12 +16,10 @@
         <label>Genetic Wings</label>
         <description>Carriers of this gene develop wings that mirror their hair color, flowing and textured, emerging seamlessly from their back, blending the natural hues of their locks with the majestic form of wings</description>
         <iconPath>UI/Icons/Genes/GEW_GeneticWingsIcon</iconPath>
-        <biostatCpx>1</biostatCpx>
         <displayCategory>GEW_Wings</displayCategory>
         <customEffectDescriptions>
             <li>Gains the ability to fly once every ingame hour</li>
         </customEffectDescriptions>
-        <biostatMet>-2</biostatMet>
         <selectionWeight>0</selectionWeight>
         <symbolPack>
             <prefixSymbols>
@@ -74,12 +74,10 @@
         <label>Dark Angel Wings</label>
         <description>Carriers of this gene unfurl a pair of dark angel wings, majestic and imposing, rising from their back, cloaked in shadows that whisper of ancient power and the depth of the night sky.</description>
         <iconPath>UI/Icons/Genes/GEW_DarkAngelWingsIcon</iconPath>
-        <biostatCpx>1</biostatCpx>
         <displayCategory>GEW_Wings</displayCategory>
         <customEffectDescriptions>
             <li>Gains the ability to fly once every ingame hour</li>
         </customEffectDescriptions>
-        <biostatMet>-1</biostatMet>
         <selectionWeight>0</selectionWeight>
         <symbolPack>
             <prefixSymbols>
@@ -137,12 +135,10 @@
         <label>Angel Wings</label>
         <description>Carriers of this gene reveal a pair of angel wings, resplendent and pure, gracefully arching from their back, radiating a celestial glow that speaks of serenity and the boundless heavens.</description>
         <iconPath>UI/Icons/Genes/GEW_AngelWingsIcon</iconPath>
-        <biostatCpx>1</biostatCpx>
         <displayCategory>GEW_Wings</displayCategory>
         <customEffectDescriptions>
             <li>Gains the ability to fly once every ingame hour</li>
         </customEffectDescriptions>
-        <biostatMet>-2</biostatMet>
         <selectionWeight>0</selectionWeight>
         <symbolPack>
             <prefixSymbols>
@@ -200,12 +196,10 @@
         <label>Demon Wings</label>
         <description>Carriers of this gene manifest a pair of demon wings, formidable and enigmatic, stretching wide from their back, cloaked in a darkness that pulses with untold strength and the mysteries of the abyss.</description>
         <iconPath>UI/Icons/Genes/GEW_DemonWingsIcon</iconPath>
-        <biostatCpx>1</biostatCpx>
         <displayCategory>GEW_Wings</displayCategory>
         <customEffectDescriptions>
             <li>Gains the ability to fly once every ingame hour</li>
         </customEffectDescriptions>
-        <biostatMet>-2</biostatMet>
         <selectionWeight>0</selectionWeight>
         <symbolPack>
             <prefixSymbols>
@@ -263,12 +257,10 @@
         <label>Fairy Wings</label>
         <description>Carriers of this gene possess a pair of fairy wings, delicate and iridescent, sprouting gracefully from their back, capturing the enchantment of a mystical realm in every flutter.</description>
         <iconPath>UI/Icons/Genes/GEW_FairyWingsIcon</iconPath>
-        <biostatCpx>1</biostatCpx>
         <displayCategory>GEW_Wings</displayCategory>
         <customEffectDescriptions>
             <li>Gains the ability to fly once every ingame hour</li>
         </customEffectDescriptions>
-        <biostatMet>-2</biostatMet>
         <selectionWeight>0</selectionWeight>
         <symbolPack>
             <prefixSymbols>
@@ -326,12 +318,10 @@
         <label>Insectoid Wings</label>
         <description>Carriers of this gene boast a pair of green insectoid wings, veined and translucent, emerging boldly from their back, embodying the essence of nature's most intricate designs with every beat.</description>
         <iconPath>UI/Icons/Genes/GEW_InsectoidWingsIcon</iconPath>
-        <biostatCpx>1</biostatCpx>
         <displayCategory>GEW_Wings</displayCategory>
         <customEffectDescriptions>
             <li>Gains the ability to fly once every ingame hour</li>
         </customEffectDescriptions>
-        <biostatMet>-2</biostatMet>
         <selectionWeight>0</selectionWeight>
         <symbolPack>
             <prefixSymbols>
@@ -389,12 +379,10 @@
         <label>Moth Wings</label>
         <description>Carriers of this gene display a pair of moth wings, soft and expansive, unfurling from their back, adorned with mesmerizing patterns that echo the silent beauty of the night.</description>
         <iconPath>UI/Icons/Genes/GEW_MothWingsIcon</iconPath>
-        <biostatCpx>1</biostatCpx>
         <displayCategory>GEW_Wings</displayCategory>
         <customEffectDescriptions>
             <li>Gains the ability to fly once every ingame hour</li>
         </customEffectDescriptions>
-        <biostatMet>-2</biostatMet>
         <selectionWeight>0</selectionWeight>
         <symbolPack>
             <prefixSymbols>
@@ -452,12 +440,10 @@
         <label>Slime Wings</label>
         <description>Carriers of this gene manifest a pair of slime wings, sleek and shimmering, extending from their back, combining the fluid grace of liquid with the ethereal form of flight.</description>
         <iconPath>UI/Icons/Genes/GEW_SlimeWingsIcon</iconPath>
-        <biostatCpx>1</biostatCpx>
         <displayCategory>GEW_Wings</displayCategory>
         <customEffectDescriptions>
             <li>Gains the ability to fly once every ingame hour</li>
         </customEffectDescriptions>
-        <biostatMet>-2</biostatMet>
         <selectionWeight>0</selectionWeight>
         <symbolPack>
             <prefixSymbols>
