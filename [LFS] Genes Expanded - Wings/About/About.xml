@@ -20,6 +20,9 @@
     </modDependencies>
     <loadAfter>
         <li>Ludeon.RimWorld</li>
+        <li>Ludeon.RimWorld.Ideology</li>
+        <li>Ludeon.RimWorld.Royalty</li>
         <li>Ludeon.RimWorld.Biotech</li>
+        <li>Ludeon.RimWorld.Anomaly</li>
     </loadAfter>
 </ModMetaData>
