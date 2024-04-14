@@ -40,25 +40,22 @@
                 <overrideMeshSize>(1, 1)</overrideMeshSize>
                 <parentTagDef>Body</parentTagDef>
                 <rotDrawMode>Fresh, Rotting</rotDrawMode>
-                <drawSize>(1,1)</drawSize>
+                <drawSize>(1.5,1.5)</drawSize>
                 <drawData>
                     <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
                     <defaultData>
                         <layer>-2</layer>
                     </defaultData>
                     <dataNorth>
-                        <offset>(0, 0.19, 0)</offset>
-                        <layer>90</layer>
+                        <layer>80</layer>
+                        <offset>(0, 0, -0.25)</offset>
                     </dataNorth>
                     <dataSouth>
                         <offset>(0, 0, 0)</offset>
                     </dataSouth>
                     <dataEast>
-                        <offset>(-.12, 0, 0)</offset>
+                        <offset>(0, 0, 0)</offset>
                     </dataEast>
-                    <dataWest>
-                        <offset>(.12, 0, 0)</offset>
-                    </dataWest>
                 </drawData>
             </li>
         </renderNodeProperties>
@@ -101,15 +98,15 @@
                 <overrideMeshSize>(1, 1)</overrideMeshSize>
                 <parentTagDef>Body</parentTagDef>
                 <rotDrawMode>Fresh, Rotting</rotDrawMode>
-                <drawSize>(1,1)</drawSize>
+                <drawSize>(1.5,1.5)</drawSize>
                 <drawData>
                     <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
                     <defaultData>
                         <layer>-2</layer>
                     </defaultData>
                     <dataNorth>
-                        <offset>(0, 0.19, 0)</offset>
-                        <layer>90</layer>
+                        <layer>80</layer>
+                        <offset>(0, 0, -0.35)</offset>
                     </dataNorth>
                     <dataSouth>
                         <offset>(0, 0, 0)</offset>
@@ -117,9 +114,6 @@
                     <dataEast>
                         <offset>(0, 0, 0)</offset>
                     </dataEast>
-                    <dataWest>
-                        <offset>(0, 0, 0)</offset>
-                    </dataWest>
                 </drawData>
             </li>
         </renderNodeProperties>
@@ -162,15 +156,15 @@
                 <overrideMeshSize>(1, 1)</overrideMeshSize>
                 <parentTagDef>Body</parentTagDef>
                 <rotDrawMode>Fresh, Rotting</rotDrawMode>
-                <drawSize>(1,1)</drawSize>
+                <drawSize>(1.5,1.5)</drawSize>
                 <drawData>
                     <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
                     <defaultData>
                         <layer>-2</layer>
                     </defaultData>
                     <dataNorth>
-                        <offset>(0, 0.19, 0)</offset>
-                        <layer>90</layer>
+                        <layer>80</layer>
+                        <offset>(0, 0, -0.35)</offset>
                     </dataNorth>
                     <dataSouth>
                         <offset>(0, 0, 0)</offset>
@@ -178,9 +172,6 @@
                     <dataEast>
                         <offset>(0, 0, 0)</offset>
                     </dataEast>
-                    <dataWest>
-                        <offset>(0, 0, 0)</offset>
-                    </dataWest>
                 </drawData>
             </li>
         </renderNodeProperties>
@@ -223,15 +214,15 @@
                 <overrideMeshSize>(1, 1)</overrideMeshSize>
                 <parentTagDef>Body</parentTagDef>
                 <rotDrawMode>Fresh, Rotting</rotDrawMode>
-                <drawSize>(1,1)</drawSize>
+                <drawSize>(1.5,1.5)</drawSize>
                 <drawData>
                     <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
                     <defaultData>
                         <layer>-2</layer>
                     </defaultData>
                     <dataNorth>
-                        <offset>(0, 0.19, 0)</offset>
-                        <layer>90</layer>
+                        <layer>80</layer>
+                        <offset>(0, 0, -0.15)</offset>
                     </dataNorth>
                     <dataSouth>
                         <offset>(0, 0, 0)</offset>
@@ -239,9 +230,6 @@
                     <dataEast>
                         <offset>(0, 0, 0)</offset>
                     </dataEast>
-                    <dataWest>
-                        <offset>(0, 0, 0)</offset>
-                    </dataWest>
                 </drawData>
             </li>
         </renderNodeProperties>
@@ -284,15 +272,15 @@
                 <overrideMeshSize>(1, 1)</overrideMeshSize>
                 <parentTagDef>Body</parentTagDef>
                 <rotDrawMode>Fresh, Rotting</rotDrawMode>
-                <drawSize>(1,1)</drawSize>
+                <drawSize>(1.5,1.5)</drawSize>
                 <drawData>
                     <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
                     <defaultData>
                         <layer>-2</layer>
                     </defaultData>
                     <dataNorth>
-                        <offset>(0, 0.19, 0)</offset>
-                        <layer>90</layer>
+                        <layer>80</layer>
+                        <offset>(0, 0, -0.15)</offset>
                     </dataNorth>
                     <dataSouth>
                         <offset>(0, 0, 0)</offset>
@@ -300,9 +288,6 @@
                     <dataEast>
                         <offset>(0, 0, 0)</offset>
                     </dataEast>
-                    <dataWest>
-                        <offset>(0, 0, 0)</offset>
-                    </dataWest>
                 </drawData>
             </li>
         </renderNodeProperties>
@@ -345,15 +330,15 @@
                 <overrideMeshSize>(1, 1)</overrideMeshSize>
                 <parentTagDef>Body</parentTagDef>
                 <rotDrawMode>Fresh, Rotting</rotDrawMode>
-                <drawSize>(1,1)</drawSize>
+                <drawSize>(1.5,1.5)</drawSize>
                 <drawData>
                     <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
                     <defaultData>
                         <layer>-2</layer>
                     </defaultData>
                     <dataNorth>
-                        <offset>(0, 0.19, 0)</offset>
-                        <layer>90</layer>
+                        <layer>80</layer>
+                        <offset>(0, 0, 0)</offset>
                     </dataNorth>
                     <dataSouth>
                         <offset>(0, 0, 0)</offset>
@@ -361,9 +346,6 @@
                     <dataEast>
                         <offset>(0, 0, 0)</offset>
                     </dataEast>
-                    <dataWest>
-                        <offset>(0, 0, 0)</offset>
-                    </dataWest>
                 </drawData>
             </li>
         </renderNodeProperties>
@@ -406,15 +388,15 @@
                 <overrideMeshSize>(1, 1)</overrideMeshSize>
                 <parentTagDef>Body</parentTagDef>
                 <rotDrawMode>Fresh, Rotting</rotDrawMode>
-                <drawSize>(1,1)</drawSize>
+                <drawSize>(1.5,1.5)</drawSize>
                 <drawData>
                     <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
                     <defaultData>
                         <layer>-2</layer>
                     </defaultData>
                     <dataNorth>
-                        <offset>(0, 0.19, 0)</offset>
-                        <layer>90</layer>
+                        <layer>80</layer>
+                        <offset>(0, 0, -0.15)</offset>
                     </dataNorth>
                     <dataSouth>
                         <offset>(0, 0, 0)</offset>
@@ -422,9 +404,6 @@
                     <dataEast>
                         <offset>(0, 0, 0)</offset>
                     </dataEast>
-                    <dataWest>
-                        <offset>(0, 0, 0)</offset>
-                    </dataWest>
                 </drawData>
             </li>
         </renderNodeProperties>
@@ -467,15 +446,15 @@
                 <overrideMeshSize>(1, 1)</overrideMeshSize>
                 <parentTagDef>Body</parentTagDef>
                 <rotDrawMode>Fresh, Rotting</rotDrawMode>
-                <drawSize>(1,1)</drawSize>
+                <drawSize>(1.5,1.5)</drawSize>
                 <drawData>
                     <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
                     <defaultData>
                         <layer>-2</layer>
                     </defaultData>
                     <dataNorth>
-                        <offset>(0, 0.19, 0)</offset>
-                        <layer>90</layer>
+                        <layer>80</layer>
+                        <offset>(0, 0, -0.25)</offset>
                     </dataNorth>
                     <dataSouth>
                         <offset>(0, 0, 0)</offset>
@@ -483,9 +462,6 @@
                     <dataEast>
                         <offset>(0, 0, 0)</offset>
                     </dataEast>
-                    <dataWest>
-                        <offset>(0, 0, 0)</offset>
-                    </dataWest>
                 </drawData>
             </li>
         </renderNodeProperties>
