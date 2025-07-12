@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <GeneDef Name="GEW_WingBase" Abstract="True">
+        <displayCategory>Wings</displayCategory>
+        <biostatMet>-1</biostatMet>
+        <biostatCpx>1</biostatCpx>
+        <exclusionTags>
+            <li>Wing</li>
+            <li>Wings</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <!-- Genetic Wings -->
+    <GeneDef ParentName="GEW_WingBase">
+        <defName>GEW_Genetic_Wings</defName>
+        <label>Genetic Wings</label>
+        <description>Carriers of this gene develop wings that mirror their hair color, flowing and textured, emerging seamlessly from their back, blending the natural hues of their locks with the majestic form of wings</description>
+        <iconPath>UI/Icons/Genes/GEW_GeneticWingsIcon</iconPath>
+        <displayCategory>GEW_Wings</displayCategory>
+        <customEffectDescriptions>
+            <li>Gains the ability to fly once every ingame hour</li>
+        </customEffectDescriptions>
+        <selectionWeight>0</selectionWeight>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>wing</symbol>
+                </li>
+                <li>
+                    <symbol>gentic</symbol>
+                </li>
+            </prefixSymbols>
+        </symbolPack>
+
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Pawn/Humanlike/BodyAttachments/GEW_GeneticWings/GEW_GeneticWings</texPath>
+                <colorType>Hair</colorType>
+                <overrideMeshSize>(1, 1)</overrideMeshSize>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawSize>(1.5,1.5)</drawSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>299</layer>
+                        <offset>(0, 0, -0.25)</offset>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(0, 0, 0)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(0, 0, 0)</offset>
+                    </dataEast>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+
+        <abilities>
+            <li>GEW_Wings_Fly</li>
+        </abilities>
+    </GeneDef>
+
+    <!-- Dark Angel Wings -->
+    <GeneDef ParentName="GEW_WingBase">
+        <defName>GEW_DarkAngel_Wings</defName>
+        <label>Dark Angel Wings</label>
+        <description>Carriers of this gene unfurl a pair of dark angel wings, majestic and imposing, rising from their back, cloaked in shadows that whisper of ancient power and the depth of the night sky.</description>
+        <iconPath>UI/Icons/Genes/GEW_DarkAngelWingsIcon</iconPath>
+        <displayCategory>GEW_Wings</displayCategory>
+        <customEffectDescriptions>
+            <li>Gains the ability to fly once every ingame hour</li>
+        </customEffectDescriptions>
+        <selectionWeight>0</selectionWeight>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>wing</symbol>
+                </li>
+                <li>
+                    <symbol>dark</symbol>
+                </li>
+                <li>
+                    <symbol>angel</symbol>
+                </li>
+            </prefixSymbols>
+        </symbolPack>
+
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Pawn/Humanlike/BodyAttachments/GEW_DarkAngelWings/GEW_DarkAngelWings</texPath>
+                <color>(255, 255, 255)</color>
+                <overrideMeshSize>(1, 1)</overrideMeshSize>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawSize>(1.5,1.5)</drawSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>299</layer>
+                        <offset>(0, 0, -0.35)</offset>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(0, 0, 0)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(0, 0, 0)</offset>
+                    </dataEast>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+
+        <abilities>
+            <li>GEW_Wings_Fly</li>
+        </abilities>
+    </GeneDef>
+
+    <!-- Angel Wings -->
+    <GeneDef ParentName="GEW_WingBase">
+        <defName>GEW_Angel_Wings</defName>
+        <label>Angel Wings</label>
+        <description>Carriers of this gene reveal a pair of angel wings, resplendent and pure, gracefully arching from their back, radiating a celestial glow that speaks of serenity and the boundless heavens.</description>
+        <iconPath>UI/Icons/Genes/GEW_AngelWingsIcon</iconPath>
+        <displayCategory>GEW_Wings</displayCategory>
+        <customEffectDescriptions>
+            <li>Gains the ability to fly once every ingame hour</li>
+        </customEffectDescriptions>
+        <selectionWeight>0</selectionWeight>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>wing</symbol>
+                </li>
+                <li>
+                    <symbol>dark</symbol>
+                </li>
+                <li>
+                    <symbol>angel</symbol>
+                </li>
+            </prefixSymbols>
+        </symbolPack>
+
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Pawn/Humanlike/BodyAttachments/GEW_AngelWings/GEW_AngelWings</texPath>
+                <color>(255, 255, 255)</color>
+                <overrideMeshSize>(1, 1)</overrideMeshSize>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawSize>(1.5,1.5)</drawSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>299</layer>
+                        <offset>(0, 0, -0.35)</offset>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(0, 0, 0)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(0, 0, 0)</offset>
+                    </dataEast>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+
+        <abilities>
+            <li>GEW_Wings_Fly</li>
+        </abilities>
+    </GeneDef>
+
+    <!-- Demon Wings -->
+    <GeneDef ParentName="GEW_WingBase">
+        <defName>GEW_Demon_Wings</defName>
+        <label>Demon Wings</label>
+        <description>Carriers of this gene manifest a pair of demon wings, formidable and enigmatic, stretching wide from their back, cloaked in a darkness that pulses with untold strength and the mysteries of the abyss.</description>
+        <iconPath>UI/Icons/Genes/GEW_DemonWingsIcon</iconPath>
+        <displayCategory>GEW_Wings</displayCategory>
+        <customEffectDescriptions>
+            <li>Gains the ability to fly once every ingame hour</li>
+        </customEffectDescriptions>
+        <selectionWeight>0</selectionWeight>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>wing</symbol>
+                </li>
+                <li>
+                    <symbol>dark</symbol>
+                </li>
+                <li>
+                    <symbol>angel</symbol>
+                </li>
+            </prefixSymbols>
+        </symbolPack>
+
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Pawn/Humanlike/BodyAttachments/GEW_DemonWings/GEW_DemonWings</texPath>
+                <color>(255, 255, 255)</color>
+                <overrideMeshSize>(1, 1)</overrideMeshSize>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawSize>(1.5,1.5)</drawSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>299</layer>
+                        <offset>(0, 0, -0.15)</offset>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(0, 0, 0)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(0, 0, 0)</offset>
+                    </dataEast>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+
+        <abilities>
+            <li>GEW_Wings_Fly</li>
+        </abilities>
+    </GeneDef>
+
+    <!-- Fairy Wings -->
+    <GeneDef ParentName="GEW_WingBase">
+        <defName>GEW_Fairy_Wings</defName>
+        <label>Fairy Wings</label>
+        <description>Carriers of this gene possess a pair of fairy wings, delicate and iridescent, sprouting gracefully from their back, capturing the enchantment of a mystical realm in every flutter.</description>
+        <iconPath>UI/Icons/Genes/GEW_FairyWingsIcon</iconPath>
+        <displayCategory>GEW_Wings</displayCategory>
+        <customEffectDescriptions>
+            <li>Gains the ability to fly once every ingame hour</li>
+        </customEffectDescriptions>
+        <selectionWeight>0</selectionWeight>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>wing</symbol>
+                </li>
+                <li>
+                    <symbol>dark</symbol>
+                </li>
+                <li>
+                    <symbol>angel</symbol>
+                </li>
+            </prefixSymbols>
+        </symbolPack>
+
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Pawn/Humanlike/BodyAttachments/GEW_FairyWings/GEW_FairyWings</texPath>
+                <color>(255, 255, 255)</color>
+                <overrideMeshSize>(1, 1)</overrideMeshSize>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawSize>(1.5,1.5)</drawSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>299</layer>
+                        <offset>(0, 0, -0.15)</offset>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(0, 0, 0)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(0, 0, 0)</offset>
+                    </dataEast>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+
+        <abilities>
+            <li>GEW_Wings_Fly</li>
+        </abilities>
+    </GeneDef>
+
+    <!-- Insectoid Wings -->
+    <GeneDef ParentName="GEW_WingBase">
+        <defName>GEW_Insectoid_Wings</defName>
+        <label>Insectoid Wings</label>
+        <description>Carriers of this gene boast a pair of green insectoid wings, veined and translucent, emerging boldly from their back, embodying the essence of nature's most intricate designs with every beat.</description>
+        <iconPath>UI/Icons/Genes/GEW_InsectoidWingsIcon</iconPath>
+        <displayCategory>GEW_Wings</displayCategory>
+        <customEffectDescriptions>
+            <li>Gains the ability to fly once every ingame hour</li>
+        </customEffectDescriptions>
+        <selectionWeight>0</selectionWeight>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>wing</symbol>
+                </li>
+                <li>
+                    <symbol>dark</symbol>
+                </li>
+                <li>
+                    <symbol>angel</symbol>
+                </li>
+            </prefixSymbols>
+        </symbolPack>
+
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Pawn/Humanlike/BodyAttachments/GEW_InsectoidWings/GEW_InsectoidWings</texPath>
+                <color>(255, 255, 255)</color>
+                <overrideMeshSize>(1, 1)</overrideMeshSize>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawSize>(1.5,1.5)</drawSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>299</layer>
+                        <offset>(0, 0, 0)</offset>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(0, 0, 0)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(0, 0, 0)</offset>
+                    </dataEast>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+
+        <abilities>
+            <li>GEW_Wings_Fly</li>
+        </abilities>
+    </GeneDef>
+
+    <!-- Moth Wings -->
+    <GeneDef ParentName="GEW_WingBase">
+        <defName>GEW_Moth_Wings</defName>
+        <label>Moth Wings</label>
+        <description>Carriers of this gene display a pair of moth wings, soft and expansive, unfurling from their back, adorned with mesmerizing patterns that echo the silent beauty of the night.</description>
+        <iconPath>UI/Icons/Genes/GEW_MothWingsIcon</iconPath>
+        <displayCategory>GEW_Wings</displayCategory>
+        <customEffectDescriptions>
+            <li>Gains the ability to fly once every ingame hour</li>
+        </customEffectDescriptions>
+        <selectionWeight>0</selectionWeight>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>wing</symbol>
+                </li>
+                <li>
+                    <symbol>dark</symbol>
+                </li>
+                <li>
+                    <symbol>angel</symbol>
+                </li>
+            </prefixSymbols>
+        </symbolPack>
+
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Pawn/Humanlike/BodyAttachments/GEW_MothWings/GEW_MothWings</texPath>
+                <color>(255, 255, 255)</color>
+                <overrideMeshSize>(1, 1)</overrideMeshSize>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawSize>(1.5,1.5)</drawSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>299</layer>
+                        <offset>(0, 0, -0.15)</offset>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(0, 0, 0)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(0, 0, 0)</offset>
+                    </dataEast>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+
+        <abilities>
+            <li>GEW_Wings_Fly</li>
+        </abilities>
+    </GeneDef>
+
+    <!-- Slime Wings -->
+    <GeneDef ParentName="GEW_WingBase">
+        <defName>GEW_Slime_Wings</defName>
+        <label>Slime Wings</label>
+        <description>Carriers of this gene manifest a pair of slime wings, sleek and shimmering, extending from their back, combining the fluid grace of liquid with the ethereal form of flight.</description>
+        <iconPath>UI/Icons/Genes/GEW_SlimeWingsIcon</iconPath>
+        <displayCategory>GEW_Wings</displayCategory>
+        <customEffectDescriptions>
+            <li>Gains the ability to fly once every ingame hour</li>
+        </customEffectDescriptions>
+        <selectionWeight>0</selectionWeight>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>wing</symbol>
+                </li>
+                <li>
+                    <symbol>dark</symbol>
+                </li>
+                <li>
+                    <symbol>angel</symbol>
+                </li>
+            </prefixSymbols>
+        </symbolPack>
+
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Pawn/Humanlike/BodyAttachments/GEW_SlimeWings/GEW_SlimeWings</texPath>
+                <color>(255, 255, 255)</color>
+                <overrideMeshSize>(1, 1)</overrideMeshSize>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawSize>(1.5,1.5)</drawSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>299</layer>
+                        <offset>(0, 0, -0.25)</offset>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(0, 0, 0)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(0, 0, 0)</offset>
+                    </dataEast>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+
+        <abilities>
+            <li>GEW_Wings_Fly</li>
+        </abilities>
+    </GeneDef>
+
+</Defs>
