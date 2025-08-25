@@ -471,4 +471,62 @@
         </abilities>
     </GeneDef>
 
+    <!-- Boney Wings -->
+    <GeneDef ParentName="GEW_WingBase">
+        <defName>GEW_Boney_Wings</defName>
+        <label>Boney Wings</label>
+        <description>Carriers of this gene bear a haunting set of boney wings, jagged and skeletal, their torn membranes whispering of decay and forgotten power. Each movement stirs an eerie presence, a reminder of strength carved from ruin and the lingering shadow of the abyss.</description>
+        <iconPath>UI/Icons/Genes/GEW_BoneyWingsIcon</iconPath>
+        <displayCategory>GEW_Wings</displayCategory>
+        <customEffectDescriptions>
+            <li>Gains the ability to fly once every ingame hour</li>
+        </customEffectDescriptions>
+        <selectionWeight>0</selectionWeight>
+        <symbolPack>
+            <prefixSymbols>
+                <li>
+                    <symbol>wing</symbol>
+                </li>
+                <li>
+                    <symbol>dark</symbol>
+                </li>
+                <li>
+                    <symbol>angel</symbol>
+                </li>
+            </prefixSymbols>
+        </symbolPack>
+
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Pawn/Humanlike/BodyAttachments/GEW_BoneyWings/GEW_BoneyWings</texPath>
+                <color>(255, 255, 255)</color>
+                <overrideMeshSize>(1, 1)</overrideMeshSize>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawSize>(1.5,1.5)</drawSize>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>299</layer>
+                        <offset>(0, 0, -0.15)</offset>
+                    </dataNorth>
+                    <dataSouth>
+                        <offset>(0, 0, 0)</offset>
+                    </dataSouth>
+                    <dataEast>
+                        <offset>(0, 0, 0)</offset>
+                    </dataEast>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+
+        <abilities>
+            <li>GEW_Wings_Fly</li>
+        </abilities>
+    </GeneDef>
+
 </Defs>
