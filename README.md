@@ -1,36 +1,33 @@
-![Wing Genes Mod Preview](https://i.imgur.com/PYPncT6.png)
-This mod adds eight new Wing genes to Rimworld, enabling players to genetically modify their colonists with abilities ranging from swift flight to stealthy gliding, introducing a fresh dimension of aerial strategy and survival tactics to the game's expansive universe.
+![Image](https://imgur.com/rLzEMiq.png)  
+This mod adds eight new Wing genes to RimWorld, enabling players to genetically modify their colonists with abilities ranging from swift flight to stealthy gliding, introducing a fresh dimension of aerial strategy and survival tactics to the game's expansive universe.
 
-[![Support the Developer](https://i.imgur.com/6UlYsZA.png)](https://www.buymeacoffee.com/LFStudio)
-![Wing Genes](https://i.imgur.com/IwC9ybE.png)
+![Image](https://imgur.com/Ag2bKfL.png)  
+![Image](https://imgur.com/Ioe0ehI.png)  
+![Image](https://imgur.com/fN5HPpm.png)  
+![Image](https://imgur.com/jjDp7zZ.png)  
+![Image](https://imgur.com/JwzxWn6.png)  
+![Image](https://imgur.com/MsJDWxj.png)  
+![Image](https://imgur.com/RSqRR6w.png)  
+![Image](https://imgur.com/Q3mIA2r.png)  
+![Image](https://imgur.com/VYyGs3f.png)  
+![Image](https://imgur.com/BS3yWbR.png)
 
-![Wing Genes](https://i.imgur.com/v3xRu2O.png)
-![Wing Genes](https://i.imgur.com/NQ02v2G.png)
-![Wing Genes](https://i.imgur.com/VVK5CSP.png)
-![Wing Genes](https://i.imgur.com/Ft5q6ns.png)
-![Wing Genes](https://i.imgur.com/HwMVlBk.png)
-![Wing Genes](https://i.imgur.com/mKS4EBW.png)
-![Wing Genes](https://i.imgur.com/S5ZKpd2.png)
-![Wing Genes](https://i.imgur.com/mL3ujlX.png)
-![Wing Genes](https://i.imgur.com/jjU5YP8.png)
+![Image](https://imgur.com/dYkdrSs.png)  
+[![Image](https://imgur.com/5dUx060.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=3221935528)  
+[![Image](https://imgur.com/EiptVUB.png)](https://discord.gg/SNGCG5bb2R)
 
-![More Info](https://i.imgur.com/16DBOPd.png)
-[![Download Mod](https://i.imgur.com/gEbl0ES.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2912569371)
+![Image](https://imgur.com/L7QezrM.png)  
+[![Image](https://imgur.com/qjEcHtb.png)](https://steamcommunity.com/workshop/filedetails/?id=3221829785)
 
-**Compatibility Requests**
+![Image](https://imgur.com/X9hU1W2.png)  
+![Image](https://imgur.com/2MXFikA.png)  
+[![Image](https://imgur.com/wqldLyd.png)](https://ko-fi.com/lazyfridaystudio)
 
-Have a mod you want to be made compatible with? Ask in the comments :)
+**XML by:** [Lazy Friday Studio](https://www.lazyfridaystudio.com)  
+**ART by:** [Morgante](https://www.behance.net/fabiomariaiozzi)
 
-![Compatibility](https://i.imgur.com/j2Qa3am.png)
-[![Mod Link](https://i.imgur.com/7UVyj7k.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2912569371)
-[![Mod Link](https://i.imgur.com/RnUjw7H.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2909372626)
-[![Mod Link](https://i.imgur.com/jw2U709.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2922457045)
+*RimWorld* is owned by **Tynan Sylvester**.  
+Licensed under [CC BY-NC-ND 4.0](https://creativecommons.org)
 
-![Credits](https://i.imgur.com/Wtg1ZwF.png)
-**XML and Art by** [Lazy Friday Studio](https://www.lazyfridaystudio.com)
-
-*Rimworld is owned by Tynan Sylvester.*
-
-Licensed under CC BY-NC-ND 4.0 [creativecommons.org](https://creativecommons.org)
-
-You may create patches or translations for this mod. You must not re-upload or modify the original files. This includes re-uploading this mod to other websites.
+> You may create patches or translations for this mod.  
+> You must not re-upload or modify the original files. This includes re-uploading this mod to other websites.
